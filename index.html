@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- gornji deo sluzi da sajt bude responsive za telefone -->
+  <title>Title</title>
+  <style>
+  h1 {
+    text-align: center;
+  }
+  body {
+    text-align: center;
+    background: url("https://zavrel.net/background.jpg") black;
+    font-family: sans-serif;
+    background-position: center;
+  }
+  img {
+    width: 200px;
+    border-radius: 100px; /* da slika bude okrugla umesto u obliku kvadrata */
+    -webkit-border-radius: 100px; /* vendor prefix - za chrome i safai */
+    -moz-border-radius: 100px; /* vendor prefix - za mozillu */
+  }
+  p {
+    font-size: 22px;
+  }
+  input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  input[type="submit"] {
+    background: red;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+  <img src="https://zavrel.net/me.jpg">
+  <h1>Ivan Jankovski</h1>
+  <p>Ovo je neki paragraf!</p>
+  <input type="email" placeholder="Vas email">
+  <input type="submit">
+</body>
